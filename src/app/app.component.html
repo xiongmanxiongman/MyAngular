@@ -1,0 +1,80 @@
+<nz-layout>
+  <nz-header>
+    <div class="logo"></div>
+    <ul nz-menu nzTheme="dark" nzMode="horizontal" class="header-menu">
+      <li nz-menu-item nzSelected><a routerLink="angular" routerLinkActive="active">Angular 文档</a></li>
+      <li nz-menu-item><a routerLink="antdesign" routerLinkActive="active">NG-ZORRO</a></li>
+    </ul>
+  </nz-header>
+  <nz-layout>
+
+    <nz-sider nzWidth="200px" nzTheme="light">
+      <ul nz-menu nzMode="inline" class="sider-menu">
+        <!--Angular 文档-->
+        <li nz-submenu nzOpen nzIcon="notification" nzTitle="组件模板">
+          <ul>
+            <!--<li nz-menu-item nzSelected><a routerLink="/first-component" routerLinkActive="active">First Component</a></li>-->
+            <li nz-menu-item nzSelected><a routerLink="guide/displaying-data" routerLinkActive="active">显示数据</a></li>
+            <li nz-menu-item><a routerLink="guide/template-syntax" routerLinkActive="active">模板语法</a></li>
+            <li nz-menu-item><a routerLink="guide/user-input" routerLinkActive="active">用户输入</a></li>
+            <li nz-menu-item><a routerLink="guide/attribute-directives" routerLinkActive="active">属性型指令</a></li>
+            <li nz-menu-item><a routerLink="guide/structural-directives" routerLinkActive="active">结构型指令</a></li>
+            <li nz-menu-item><a routerLink="guide/pipes" routerLinkActive="active">管道</a></li>
+            <li nz-menu-item><a routerLink="guide/lifecycle-hooks" routerLinkActive="active">生命周期</a></li>
+            <li nz-menu-item><a routerLink="guide/component-interaction" routerLinkActive="active">组件交互</a></li>
+            <li nz-menu-item><a routerLink="guide/component-styles" routerLinkActive="active">组件样式</a></li>
+            <li nz-menu-item><a routerLink="guide/dynamic-component-loader" routerLinkActive="active">动态组件</a></li>
+            <li nz-menu-item><a routerLink="guide/elements" routerLinkActive="active">元素</a></li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="表单" nzIcon="laptop">
+          <ul>
+            <li nz-menu-item><a routerLink="guide/reactive-forms" routerLinkActive="active">响应式表单</a></li>
+            <li nz-menu-item><a routerLink="guide/form-validation" routerLinkActive="active">表单验证</a></li>
+            <li nz-menu-item><a routerLink="guide/dynamic-form" routerLinkActive="active">动态表单</a></li>
+          </ul>
+        </li>
+        <!--NG-ZORRO文档-->
+        <li nz-submenu nzOpen nzIcon="notification" nzTitle="NG-ZORRO">
+          <ul>
+            <!--<li nz-menu-item nzSelected><a routerLink="/first-component" routerLinkActive="active">First Component</a></li>-->
+            <li nz-menu-item><a routerLink="antdesign/components/button" routerLinkActive="active">button</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/icon" routerLinkActive="active">icon</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/typography" routerLinkActive="active">typography</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/grid" routerLinkActive="active">grid</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/layout" routerLinkActive="active">layout</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/affix" routerLinkActive="active">affix</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/breadcrumb" routerLinkActive="active">breadcrumb</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/dropdown" routerLinkActive="active">dropdown</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/menu" routerLinkActive="active">menu</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/page-header" routerLinkActive="active">page-header</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/pagination" routerLinkActive="active">pagination</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/steps" routerLinkActive="active">steps</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/auto-complete" routerLinkActive="active">auto-complete</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/cascader" routerLinkActive="active">cascader</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/checkbox" routerLinkActive="active">checkbox</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/date-picker" routerLinkActive="active">date-picker</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/form" routerLinkActive="active">form</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/input" routerLinkActive="active">input</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/input-number" routerLinkActive="active">input-number</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/mention" routerLinkActive="active">mention</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/radio" routerLinkActive="active">radio</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/rate" routerLinkActive="active">rate</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/select" routerLinkActive="active">select</a></li>
+            <li nz-menu-item><a routerLink="antdesign/components/slider" routerLinkActive="active">slider</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nz-sider>
+    <nz-layout class="inner-layout">
+      <nz-breadcrumb>
+        <nz-breadcrumb-item>Home</nz-breadcrumb-item>
+        <nz-breadcrumb-item>List</nz-breadcrumb-item>
+        <nz-breadcrumb-item>App</nz-breadcrumb-item>
+      </nz-breadcrumb>
+      <nz-content>
+        <router-outlet></router-outlet>
+      </nz-content>
+    </nz-layout>
+  </nz-layout>
+</nz-layout>
